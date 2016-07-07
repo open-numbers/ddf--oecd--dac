@@ -1,0 +1,6 @@
+concept,name,concept_type
+total_oda,Total ODA,measure
+year,Year,time
+name,Name,string
+donor,Donor,entity_domain
+sector,Sector,entity_domain
