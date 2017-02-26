@@ -1,0 +1,81 @@
+{
+    "name": "ddf--oecd--dac",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_oda--by--donor--sector--year.csv",
+            "name": "ddf--datapoints--total_oda--by--donor--sector--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "donor"
+                    },
+                    {
+                        "name": "sector"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_oda"
+                    }
+                ],
+                "primaryKey": [
+                    "donor",
+                    "sector",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--donor.csv",
+            "name": "ddf--entities--donor",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "donor"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "donor"
+            }
+        },
+        {
+            "path": "ddf--entities--sector.csv",
+            "name": "ddf--entities--sector",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sector"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "sector"
+            }
+        }
+    ]
+}

@@ -1,6 +1,0 @@
-key,value,file
-concept,name,ddf--concepts.csv
-concept,concept_type,ddf--concepts.csv
-"donor,sector,year",total_oda,ddf--datapoints--total_oda--by--donor--sector--year.csv
-donor,name,ddf--entities--donor.csv
-sector,name,ddf--entities--sector.csv
