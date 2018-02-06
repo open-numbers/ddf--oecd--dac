@@ -1,6 +1,8 @@
-concept,name,concept_type
-total_oda,Total ODA,measure
-year,Year,time
-name,Name,string
-donor,Donor,entity_domain
-sector,Sector,entity_domain
+concept,concept_type,name
+oda,measure,Aid (ODA) by sector and donor
+year,time,Year
+name,string,Name
+donor,entity_domain,Donor
+sector,entity_domain,Sector
+aid_type,entity_domain,Aid type
+amount_type,entity_domain,Amount type

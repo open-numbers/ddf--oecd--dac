@@ -1,87 +1,107 @@
 donor,name
+20005,"All Donors, Total"
+20001,"DAC Countries, Total"
+801,Australia
 1,Austria
 2,Belgium
+301,Canada
 3,Denmark
+18,Finland
 4,France
 5,Germany
+40,Greece
+21,Ireland
 6,Italy
+701,Japan
+742,Korea
+22,Luxembourg
 7,Netherlands
+820,New Zealand
 8,Norway
 9,Portugal
+50,Spain
 10,Sweden
 11,Switzerland
 12,United Kingdom
-18,Finland
-20,Iceland
-21,Ireland
-22,Luxembourg
-40,Greece
-45,Malta
-50,Spain
-55,Turkey
-61,Slovenia
-68,Czech Republic
-69,Slovak Republic
-72,Bulgaria
-75,Hungary
-76,Poland
-77,Romania
-82,Estonia
-84,Lithuania
-104,Nordic Development Fund [NDF]
-301,Canada
 302,United States
-552,Kuwait [KFAED]
-576,United Arab Emirates
-613,Kazakhstan
-701,Japan
-742,Korea
-765,Timor Leste
-801,Australia
-811,Global Environment Facility [GEF]
-820,New Zealand
-901,International Bank for Reconstruction and Development [IBRD]
-903,International Finance Corporation [IFC]
-905,International Development Association [IDA]
-906,Caribbean Development Bank [CarDB]
-909,Inter-American Development Bank [IDB]
-912,IDB Special Fund
+20002,"Multilaterals, Total"
 913,African Development Bank [AfDB]
 914,African Development Fund [AfDF]
+921,Arab Fund (AFESD)
 915,Asian Development Bank [AsDB]
 916,AsDB Special Funds
-918,EU Institutions
-921,Arab Fund [AFESD]
-923,UN Peacebuilding Fund [UNPBF]
-928,World Health Organisation [WHO]
-932,Food and Agriculture Organisation [FAO]
-940,International Labour Organisation
-948,UNECE
-951,OPEC Fund for International Development [OFID]
 953,Arab Bank for Economic Development in Africa [BADEA]
+906,Caribbean Development Bank [CarDB]
+990,European Bank for Reconstruction and Development [EBRD]
+918,EU Institutions
+1311,Global Alliance for Vaccines and Immunization [GAVI]
+811,Global Environment Facility [GEF]
+1312,Global Fund
+901,International Bank for Reconstruction and Development [IBRD]
+905,International Development Association [IDA]
+909,Inter-American Development Bank [IDB]
+912,IDB Special Fund
+988,IFAD
 958,IMF (Concessional Trust Funds)
+976,Islamic Development Bank [IsDB]
+104,Nordic Development Fund [NDF]
+951,OPEC Fund for International Development [OFID]
+978,OSCE
+971,UNAIDS
 959,UNDP
+948,UNECE
+974,UNFPA
+967,UNHCR
 963,UNICEF
+923,UN Peacebuilding Fund [UNPBF]
 964,UNRWA
 966,WFP
-967,UNHCR
-971,UNAIDS
-974,UNFPA
-976,Islamic Development Bank [IsDB]
-978,OSCE
-988,IFAD
-990,European Bank for Reconstruction and Development [EBRD]
-1011,Climate Investment Funds [CIF]
-1012,Adaptation Fund
-1013,Council of Europe Development Bank [CEB]
-1311,Global Alliance for Vaccines and Immunization [GAVI]
-1312,Global Fund
-1313,Global Green Growth Institute [GGGI]
-1601,Bill & Melinda Gates Foundation
-20001,"DAC Countries, Total"
-20002,"Multilateral, Total"
-20003,"G7 Countries, Total"
-20004,"DAC EU Members + EC, Total"
-20005,"All Donors, Total"
+928,World Health Organisation [WHO]
 20006,"Non-DAC Countries, Total"
+72,Bulgaria
+68,Czech Republic
+82,Estonia
+20,Iceland
+552,Kuwait
+76,Poland
+69,Slovak Republic
+61,Slovenia
+55,Turkey
+576,United Arab Emirates
+1601,Bill & Melinda Gates Foundation
+20003,"G7 Countries, Total"
 20011,"DAC EU Members, Total"
+20004,"DAC EU Members + EC, Total"
+1313,Global Green Growth Institute [GGGI]
+903,International Finance Corporation [IFC]
+1012,Adaptation Fund
+1011,Climate Investment Funds [CIF]
+1013,Council of Europe Development Bank [CEB]
+75,Hungary
+45,Malta
+932,Food and Agriculture Organisation [FAO]
+84,Lithuania
+77,Romania
+613,Kazakhstan
+765,Timor-Leste
+940,International Labour Organisation [ILO]
+20021,"United Nations, Total"
+20022,"Regional Development Banks, Total"
+20014,"Inter-American Development Bank, Total"
+20015,"Asian Development Bank, Total"
+20016,"African Development Bank, Total"
+20012,"World Bank Group, Total"
+20033,"World Bank, Total"
+807,UNEP
+20034,"Other Multilateral, Total"
+20013,"International Monetary Fund, Total"
+611,Azerbaijan
+21600,"Memo: Private Donors, Total"
+87,Russia
+1016,Green Climate Fund [GCF]
+83,Latvia
+1019,IDB Invest
+1023,World Tourism Organisation [UNWTO]
+1022,People's Postcode Lottery
+1021,Swedish Postcode Lottery
+1020,Dutch Postcode Lottery
