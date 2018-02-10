@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-02-06T13:46:44.668547+00:00",
+    "created": "2018-02-10T04:05:25.474095+00:00",
     "resources": [
         {
             "path": "ddf--entities--amount_type.csv",
@@ -104,7 +104,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "aid_oda_by_sector_and_donor_dac5"
+                        "name": "oda"
                     }
                 ],
                 "primaryKey": [
@@ -185,7 +185,7 @@
                     "sector",
                     "year"
                 ],
-                "value": "aid_oda_by_sector_and_donor_dac5",
+                "value": "oda",
                 "resources": [
                     "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year"
                 ]
