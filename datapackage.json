@@ -3,21 +3,24 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-02-18T00:44:37.879440+00:00",
+    "created": "2018-05-17T06:35:24.403391+00:00",
     "resources": [
         {
-            "path": "ddf--entities--donor.csv",
-            "name": "ddf--entities--donor",
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
             "schema": {
                 "fields": [
                     {
-                        "name": "donor"
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
                     },
                     {
                         "name": "name"
                     }
                 ],
-                "primaryKey": "donor"
+                "primaryKey": "concept"
             }
         },
         {
@@ -84,21 +87,18 @@
             }
         },
         {
-            "path": "ddf--concepts.csv",
-            "name": "ddf--concepts",
+            "path": "ddf--entities--donor.csv",
+            "name": "ddf--entities--donor",
             "schema": {
                 "fields": [
                     {
-                        "name": "concept"
-                    },
-                    {
-                        "name": "concept_type"
+                        "name": "donor"
                     },
                     {
                         "name": "name"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": "donor"
             }
         },
         {
@@ -123,7 +123,7 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "name",
+                "value": "concept_type",
                 "resources": [
                     "ddf--concepts"
                 ]
@@ -132,22 +132,13 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "concept_type",
+                "value": "name",
                 "resources": [
                     "ddf--concepts"
                 ]
             }
         ],
         "entities": [
-            {
-                "primaryKey": [
-                    "donor"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--donor"
-                ]
-            },
             {
                 "primaryKey": [
                     "aid_type"
@@ -164,6 +155,15 @@
                 "value": "name",
                 "resources": [
                     "ddf--entities--amount_type"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "donor"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--donor"
                 ]
             },
             {
