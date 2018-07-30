@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-05-17T06:35:24.403391+00:00",
+    "created": "2018-07-30T09:52:35.654735+00:00",
     "resources": [
         {
             "path": "ddf--concepts.csv",
@@ -190,6 +190,7 @@
                     "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year"
                 ]
             }
-        ]
+        ],
+        "synonyms": []
     }
 }
