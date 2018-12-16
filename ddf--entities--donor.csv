@@ -1,5 +1,5 @@
 donor,name
-20005,"All Donors, Total"
+20005,"Official Donors, Total"
 20001,"DAC Countries, Total"
 801,Australia
 1,Austria
@@ -96,7 +96,7 @@ donor,name
 20034,"Other Multilateral, Total"
 20013,"International Monetary Fund, Total"
 611,Azerbaijan
-21600,"Memo: Private Donors, Total"
+21600,"Private Donors, Total"
 87,Russia
 1016,Green Climate Fund [GCF]
 1023,World Tourism Organisation [UNWTO]
