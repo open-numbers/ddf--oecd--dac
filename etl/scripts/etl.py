@@ -7,11 +7,8 @@ import json
 from pathlib import Path
 
 import pandas as pd
-import numpy as np
 
 from ddf_utils.str import to_concept_id
-
-from ddf_utils.factory import oecd
 
 
 source = '../source/TABLE5.json'
