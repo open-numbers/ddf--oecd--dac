@@ -3,11 +3,11 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-12-23T01:03:35.766623+00:00",
+    "created": "2019-01-20T03:32:06.988213+00:00",
     "resources": [
         {
-            "path": "ddf--concepts.csv",
             "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
             "schema": {
                 "fields": [
                     {
@@ -24,8 +24,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year.csv",
             "name": "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year",
+            "path": "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -57,8 +57,8 @@
             }
         },
         {
-            "path": "ddf--entities--aid_type.csv",
             "name": "ddf--entities--aid_type",
+            "path": "ddf--entities--aid_type.csv",
             "schema": {
                 "fields": [
                     {
@@ -72,8 +72,8 @@
             }
         },
         {
-            "path": "ddf--entities--amount_type.csv",
             "name": "ddf--entities--amount_type",
+            "path": "ddf--entities--amount_type.csv",
             "schema": {
                 "fields": [
                     {
@@ -87,8 +87,8 @@
             }
         },
         {
-            "path": "ddf--entities--donor.csv",
             "name": "ddf--entities--donor",
+            "path": "ddf--entities--donor.csv",
             "schema": {
                 "fields": [
                     {
@@ -102,8 +102,8 @@
             }
         },
         {
-            "path": "ddf--entities--sector.csv",
             "name": "ddf--entities--sector",
+            "path": "ddf--entities--sector.csv",
             "schema": {
                 "fields": [
                     {

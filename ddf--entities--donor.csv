@@ -29,7 +29,6 @@ donor,name
 914,African Development Fund [AfDF]
 921,Arab Fund (AFESD)
 915,Asian Development Bank [AsDB]
-916,AsDB Special Funds
 953,Arab Bank for Economic Development in Africa [BADEA]
 906,Caribbean Development Bank [CarDB]
 990,European Bank for Reconstruction and Development [EBRD]
@@ -40,7 +39,6 @@ donor,name
 901,International Bank for Reconstruction and Development [IBRD]
 905,International Development Association [IDA]
 909,Inter-American Development Bank [IDB]
-912,IDB Special Fund
 988,IFAD
 958,IMF (Concessional Trust Funds)
 976,Islamic Development Bank [IsDB]
@@ -116,13 +114,13 @@ donor,name
 1621,Michael & Susan Dell Foundation
 1622,"Omidyar Network Fund, Inc."
 1618,David & Lucile Packard Foundation
+1612,H&M Foundation
 62,Croatia
 1617,Conrad N. Hilton Foundation
 1606,MasterCard Foundation
 1611,Oak Foundation
 1607,Grameen Crédit Agricole Foundation
 1613,C&A Foundation
-1612,H&M Foundation
 1624,William & Flora Hewlett Foundation
 1620,Carnegie Corporation of New York
 566,Saudi Arabia
