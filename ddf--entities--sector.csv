@@ -8,7 +8,7 @@ sector,name
 120,I.2. Health
 121,"I.2.a. Health, General"
 122,I.2.b. Basic Health
-130,I.3. Population Pol./Progr. & Reproductive Health
+130,I.3. Population Policies/Programmes & Reproductive Health
 140,I.4. Water Supply & Sanitation
 150,I.5. Government & Civil Society
 151,I.5.a. Government & Civil Society-general
@@ -35,10 +35,10 @@ sector,name
 410,IV.1. General Environment Protection
 430,IV.2. Other Multisector
 450,V. Total Sector Allocable (I+II+III+IV)
-500,VI. Commodity Aid / General Prog. Ass.
+500,VI. Commodity Aid / General Programme Assistance
 510,VI.1. General Budget Support
-520,VI.2. Dev. Food Aid/Food Security Ass.
-530,VI.3. Other Commodity Ass.
+520,VI.2. Development Food Assistance
+530,VI.3. Other Commodity Assistance
 600,VII. Action Relating to Debt
 700,VIII. Humanitarian Aid
 720,VIII.1. Emergency Response
@@ -46,3 +46,4 @@ sector,name
 740,VIII.3. Disaster Prevention & Preparedness
 998,IX. Unallocated / Unspecified
 1000,Total (V+VI+VII+VIII+IX)
+123,I.2.c. Non-communicable diseases (NCDs)
