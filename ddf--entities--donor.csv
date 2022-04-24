@@ -68,8 +68,6 @@ donor,name
 576,United Arab Emirates
 1601,Bill & Melinda Gates Foundation
 20003,"G7 Countries, Total"
-20011,"DAC EU Members, Total"
-20004,"DAC EU Members + EC, Total"
 1313,Global Green Growth Institute [GGGI]
 903,International Finance Corporation [IFC]
 1012,Adaptation Fund
@@ -95,7 +93,6 @@ donor,name
 20013,"International Monetary Fund, Total"
 611,Azerbaijan
 21600,"Private Donors, Total"
-87,Russia
 1016,Green Climate Fund [GCF]
 1023,World Tourism Organisation [UNWTO]
 83,Latvia
@@ -155,10 +152,13 @@ donor,name
 1629,UBS Optimus Foundation
 1641,Susan T. Buffett Foundation
 1041,Eurasian Fund for Stabilization and Development [EFSD]
+962,United Nations Conference on Trade and Development [UNCTAD]
 1406,United Nations Industrial Development Organization [UNIDO]
+1039,UN Capital Development Fund [UNCDF]
 1401,WTO - International Trade Centre [ITC]
 981,Black Sea Trade & Development Bank [BSTDB]
-764,Thailand
-962,United Nations Conference on Trade and Development [UNCTAD]
 910,Central American Bank for Economic Integration [CABEI]
-1039,UN Capital Development Fund [UNCDF]
+764,Thailand
+20025,"DAC EU Members + EC, Total"
+1646,Bezos Earth Fund
+20026,"DAC EU Members, Total"
