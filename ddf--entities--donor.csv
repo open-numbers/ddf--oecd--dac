@@ -68,6 +68,8 @@ donor,name
 576,United Arab Emirates
 1601,Bill & Melinda Gates Foundation
 20003,"G7 Countries, Total"
+20011,"DAC EU Members, Total"
+20004,"DAC EU Members + EC, Total"
 1313,Global Green Growth Institute [GGGI]
 903,International Finance Corporation [IFC]
 1012,Adaptation Fund
@@ -159,7 +161,5 @@ donor,name
 981,Black Sea Trade & Development Bank [BSTDB]
 910,Central American Bank for Economic Integration [CABEI]
 764,Thailand
-20025,"DAC EU Members + EC, Total"
 1646,Bezos Earth Fund
-20026,"DAC EU Members, Total"
 1045,North American Development Bank [NADB]
