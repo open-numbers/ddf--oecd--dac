@@ -1,13 +1,9 @@
 {
-    "name": "ddf--oecd--dac",
     "language": {
-        "id": "en"
+        "name": "English",
+        "id": "en-US"
     },
-    "title": "ddf--oecd--dac",
-    "description": "",
-    "author": "",
-    "license": "",
-    "created": "2023-12-24T01:05:02.574437+00:00",
+    "created": "2025-09-17T02:19:04.733Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -24,7 +20,77 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--aid_type",
+            "path": "ddf--entities--aid_type.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "aid_type"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "aid_type"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--amount_type",
+            "path": "ddf--entities--amount_type.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "amount_type"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "amount_type"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--donor",
+            "path": "ddf--entities--donor.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "donor"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "donor"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--sector",
+            "path": "ddf--entities--sector.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sector"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "sector"
+                ]
             }
         },
         {
@@ -58,66 +124,6 @@
                     "sector",
                     "year"
                 ]
-            }
-        },
-        {
-            "name": "ddf--entities--aid_type",
-            "path": "ddf--entities--aid_type.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "aid_type"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "aid_type"
-            }
-        },
-        {
-            "name": "ddf--entities--amount_type",
-            "path": "ddf--entities--amount_type.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "amount_type"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "amount_type"
-            }
-        },
-        {
-            "name": "ddf--entities--donor",
-            "path": "ddf--entities--donor.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "donor"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "donor"
-            }
-        },
-        {
-            "name": "ddf--entities--sector",
-            "path": "ddf--entities--sector.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "sector"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": "sector"
             }
         }
     ],

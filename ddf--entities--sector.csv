@@ -1,5 +1,6 @@
 sector,name
 100,I. Social Infrastructure & Services
+1000,Total (V+VI+VII+VIII+IX)
 110,I.1. Education
 111,"I.1.a. Education, Level Unspecified"
 112,I.1.b. Basic Education
@@ -8,7 +9,9 @@ sector,name
 120,I.2. Health
 121,"I.2.a. Health, General"
 122,I.2.b. Basic Health
+123,I.2.c. Non-communicable diseases (NCDs)
 130,I.3. Population Policies/Programmes & Reproductive Health
+139,I.2.+I.3. Health + Population Policies
 140,I.4. Water Supply & Sanitation
 150,I.5. Government & Civil Society
 151,I.5.a. Government & Civil Society-general
@@ -45,6 +48,3 @@ sector,name
 730,VIII.2. Reconstruction Relief & Rehabilitation
 740,VIII.3. Disaster Prevention & Preparedness
 998,IX. Unallocated / Unspecified
-1000,Total (V+VI+VII+VIII+IX)
-123,I.2.c. Non-communicable diseases (NCDs)
-139,I.2.+I.3. Health + Population Policies
