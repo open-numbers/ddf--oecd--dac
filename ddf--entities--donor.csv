@@ -91,12 +91,14 @@ donor,name
 20004,"DAC EU Members + EC, Total"
 20005,"Official Donors, Total"
 20006,"Non-DAC Countries, Total"
+20007,Other donor countries
 20011,"DAC EU Members, Total"
 20012,"World Bank Group, Total"
 20013,"International Monetary Fund, Total"
 20014,"Inter-American Development Bank, Total"
 20015,"Asian Development Bank, Total"
 20016,"African Development Bank, Total"
+20018,Other Multilaterals
 20021,"United Nations, Total"
 20022,"Regional Development Banks, Total"
 20033,"World Bank, Total"
@@ -143,6 +145,7 @@ donor,name
 801,Australia
 807,UNEP
 811,Global Environment Facility [GEF]
+812,Montreal Protocol
 82,Estonia
 820,New Zealand
 83,Latvia
@@ -164,11 +167,13 @@ donor,name
 928,World Health Organisation [WHO]
 932,Food and Agriculture Organisation [FAO]
 940,International Labour Organisation [ILO]
+944,International Atomic Energy Agency [IAEA]
 948,UNECE
 951,OPEC Fund for International Development [OPEC Fund]
 953,Arab Bank for Economic Development in Africa [BADEA]
 958,IMF (Concessional Trust Funds)
 959,UNDP
+960,UNTA
 962,United Nations Conference on Trade and Development [UNCTAD]
 963,UNICEF
 964,UNRWA

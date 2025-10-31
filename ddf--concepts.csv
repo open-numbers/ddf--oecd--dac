@@ -1,8 +1,11 @@
 concept,concept_type,name
-oda,measure,Aid (ODA) by sector and donor
+total_oda,measure,Total ODA by sector and donor
+oda_as_recipient_gni,measure,ODA as % of recipient GNI
+oda_per_capita,measure,ODA per capita
 year,time,Year
 name,string,Name
-aid_type,entity_domain,Aid type
 amount_type,entity_domain,Amount type
 donor,entity_domain,Donor
 sector,entity_domain,Sector
+recipient,entity_domain,Recipient
+part,entity_domain,Part

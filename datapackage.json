@@ -3,7 +3,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-09-17T02:19:04.733Z",
+    "created": "2025-10-31T03:37:47.131Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -22,23 +22,6 @@
                 ],
                 "primaryKey": [
                     "concept"
-                ]
-            }
-        },
-        {
-            "name": "ddf--entities--aid_type",
-            "path": "ddf--entities--aid_type.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "aid_type"
-                    },
-                    {
-                        "name": "name"
-                    }
-                ],
-                "primaryKey": [
-                    "aid_type"
                 ]
             }
         },
@@ -77,6 +60,40 @@
             }
         },
         {
+            "name": "ddf--entities--part",
+            "path": "ddf--entities--part.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "part"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "part"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--recipient",
+            "path": "ddf--entities--recipient.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "recipient"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": [
+                    "recipient"
+                ]
+            }
+        },
+        {
             "name": "ddf--entities--sector",
             "path": "ddf--entities--sector.csv",
             "schema": {
@@ -94,13 +111,76 @@
             }
         },
         {
-            "name": "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year",
-            "path": "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year.csv",
+            "name": "ddf--datapoints--oda_as_recipient_gni--by--amount_type--donor--recipient--part--year",
+            "path": "ddf--datapoints--oda_as_recipient_gni--by--amount_type--donor--recipient--part--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "aid_type"
+                        "name": "amount_type"
                     },
+                    {
+                        "name": "donor"
+                    },
+                    {
+                        "name": "recipient"
+                    },
+                    {
+                        "name": "part"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "oda_as_recipient_gni"
+                    }
+                ],
+                "primaryKey": [
+                    "amount_type",
+                    "donor",
+                    "recipient",
+                    "part",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--oda_per_capita--by--amount_type--donor--recipient--part--year",
+            "path": "ddf--datapoints--oda_per_capita--by--amount_type--donor--recipient--part--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "amount_type"
+                    },
+                    {
+                        "name": "donor"
+                    },
+                    {
+                        "name": "recipient"
+                    },
+                    {
+                        "name": "part"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "oda_per_capita"
+                    }
+                ],
+                "primaryKey": [
+                    "amount_type",
+                    "donor",
+                    "recipient",
+                    "part",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--total_oda--by--amount_type--donor--sector--year",
+            "path": "ddf--datapoints--total_oda--by--amount_type--donor--sector--year.csv",
+            "schema": {
+                "fields": [
                     {
                         "name": "amount_type"
                     },
@@ -114,11 +194,10 @@
                         "name": "year"
                     },
                     {
-                        "name": "oda"
+                        "name": "total_oda"
                     }
                 ],
                 "primaryKey": [
-                    "aid_type",
                     "amount_type",
                     "donor",
                     "sector",
@@ -151,15 +230,6 @@
         "entities": [
             {
                 "primaryKey": [
-                    "aid_type"
-                ],
-                "value": "name",
-                "resources": [
-                    "ddf--entities--aid_type"
-                ]
-            },
-            {
-                "primaryKey": [
                     "amount_type"
                 ],
                 "value": "name",
@@ -178,6 +248,24 @@
             },
             {
                 "primaryKey": [
+                    "part"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--part"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "recipient"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--recipient"
+                ]
+            },
+            {
+                "primaryKey": [
                     "sector"
                 ],
                 "value": "name",
@@ -189,15 +277,40 @@
         "datapoints": [
             {
                 "primaryKey": [
-                    "aid_type",
+                    "amount_type",
+                    "donor",
+                    "part",
+                    "recipient",
+                    "year"
+                ],
+                "value": "oda_as_recipient_gni",
+                "resources": [
+                    "ddf--datapoints--oda_as_recipient_gni--by--amount_type--donor--recipient--part--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "amount_type",
+                    "donor",
+                    "part",
+                    "recipient",
+                    "year"
+                ],
+                "value": "oda_per_capita",
+                "resources": [
+                    "ddf--datapoints--oda_per_capita--by--amount_type--donor--recipient--part--year"
+                ]
+            },
+            {
+                "primaryKey": [
                     "amount_type",
                     "donor",
                     "sector",
                     "year"
                 ],
-                "value": "oda",
+                "value": "total_oda",
                 "resources": [
-                    "ddf--datapoints--oda--by--aid_type--amount_type--donor--sector--year"
+                    "ddf--datapoints--total_oda--by--amount_type--donor--sector--year"
                 ]
             }
         ],
